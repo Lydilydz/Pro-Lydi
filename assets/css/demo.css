@@ -1,0 +1,254 @@
+/* FontAwesome for working BootSnippet :> */
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    background: #3555b8 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #8d1010;
+    border-color: #000000;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #cbd6f6;
+    border-color: black;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.frontside {
+    position: relative;
+    /* -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg); */
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.frontside,
+
+/* .backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+} */
+
+.frontside .card,
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #007b5e !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.main_menu_area {
+    overflow: visible;
+    background: #0D0E0F;
+    min-height: 50px
+}
+
+.main_menu_area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.main_menu_area ul li {
+    float: left;
+    position: relative
+}
+
+.main_menu_area ul li a {
+    color: #FFF;
+    display: block;
+    font-family: 'bebasregular';
+    font-size: 15px;
+    padding: 18px 18.7px
+}
+
+.main_menu_area ul li a:hover {
+    background: #CF0000
+}
+
+#nav li ul {
+    transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s
+}
+
+
+/* dropdown css level one*/
+
+.main_menu_area ul li ul {
+    background: none repeat scroll 0 0 #0D0E0F;
+    top: 100px;
+    position: absolute;
+    width: 215px;
+    z-index: 99999;
+    right: -99999px
+}
+
+.main_menu_area ul li ul li {
+    float: none;
+    position: relative
+}
+
+.main_menu_area ul>li:hover>ul {
+    left: 0px;
+    top: 49px
+}
+
+.main_menu_area ul li ul li a {
+    font-family: arial;
+    font-weight: bold
+}
+
+.main_menu_area ul li ul li a:hover {}
+
+
+/* dropdown css level two*/
+
+.main_menu_area ul li ul li ul {
+    background: none repeat scroll 0 0 #0D0E0F;
+    right: 215px;
+    position: absolute;
+    width: 215px;
+    z-index: 99999;
+    right: -99999px
+}
+
+.main_menu_area ul li ul li ul li {
+    float: none
+}
+
+.main_menu_area ul li ul li:hover ul {
+    left: 215px !important;
+    top: 0px
+}
+
+.main_menu_area ul li ul li ul li a {
+    font-family: arial;
+    font-weight: bold
+}
+
+#selectnav1 {
+    display: none
+}
+
+#selectnav2 {
+    display: none
+}
+
+#nav {
+    display: block
+}
+
+
+/* test */
+
+.slider_area,
+.slider {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.slider * {
+    margin: 0;
+    padding: 0;
+}
+
+.slider img {
+    max-width: 100%;
+}
+
+.slider1 {
+    width: 670px
+}
+
+.bxslider,
+.bx-viewport,
+.bx-controls,
+.bx-pager,
+.bx-controls-direction {
+    overflow: visible
+}
+
+.body_wrapper {
+    background: url("images/blue1.jpg") fixed;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 100%
+}
+
+.center {
+    width: 980px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    transition: all 1.3s ease 0s;
+    -moz-transition: all 1.3s ease 0s;
+    -webkit-transition: all 1.3s ease 0s;
+    -o-transition: all 1.3s ease 0s;
+    -ms-transition: all 1.3s ease 0s
+}
+
+.copyright_text {
+    line-height: 17px;
+    text-align: center
+}
+
+.header_area {}
+
+.logo {
+    margin-top: 10px
+}
