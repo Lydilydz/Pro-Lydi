@@ -1,17 +1,11 @@
 # Pro-Lydi
-Lydia Samuel's data analytics profile
-February-2015-Airline-Delays-Tweets-ETL
-The purpose of this project was to perform 
 
-# Questions
-Identify 
-Identify 
-Identify 
-
-#  Datasets
+The purpose of this website is to create a professional profile 
 
 
 #  Tasks
-Data Extraction
+Finding a  compatible template to work with with  
 
 #  Results/Conclusions
+
+A lovely and intuitive online portfolio 
